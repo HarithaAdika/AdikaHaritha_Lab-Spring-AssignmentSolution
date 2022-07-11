@@ -24,8 +24,8 @@ public class Student {
 	@Column(name = "lastName")
 	private String lastName;
 
-	@Column(name = "department")
-	private String department;
+	@Column(name = "course")
+	private String course;
 
 	@Column(name = "country")
 	private String country;
@@ -34,17 +34,17 @@ public class Student {
 
 	@Override
 	public String toString() {
-		return "Student [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", department="
-				+ department + ", country=" + country + "]";
+		return "Student [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", course="
+				+ course + ", country=" + country + "]";
 	}
 
 
 
-	public Student(String firstName, String lastName, String department, String country) {
+	public Student(String firstName, String lastName, String course, String country) {
 		super();
 		this.firstName = firstName;
 		this.lastName = lastName;
-		this.department = department;
+		this.course = course;
 		this.country = country;
 	}
 

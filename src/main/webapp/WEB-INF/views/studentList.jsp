@@ -48,7 +48,7 @@
 				<tr>
 					<th>FirstName</th>
 					<th>LastName</th>
-					<th>Department</th>
+					<th>Course</th>
 					<th>Country</th>
 					<th>Action</th>
 
@@ -60,7 +60,7 @@
 					<tr>
 						<td><c:out value="${tempStudent.firstName}" /></td>
 						<td><c:out value="${tempStudent.lastName}" /></td>
-						<td><c:out value="${tempStudent.department}" /></td>
+						<td><c:out value="${tempStudent.course}" /></td>
 						<td><c:out value="${tempStudent.country}" /></td>
 						<td>
 							<!-- Add "update" button/link to perform update student action -->

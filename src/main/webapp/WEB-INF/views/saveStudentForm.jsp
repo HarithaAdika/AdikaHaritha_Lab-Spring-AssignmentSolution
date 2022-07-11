@@ -60,9 +60,9 @@
 
 			<div class="form-inline">
 
-				<input type="text" name="department"
-					value="${NewStudent.department}" class="form-control mb-4 col-4"
-					placeholder="Enter Student Department">
+				<input type="text" name="course"
+					value="${NewStudent.course}" class="form-control mb-4 col-4"
+					placeholder="Enter Student Course">
 
 			</div>
 			<div class="form-inline">
